@@ -16,7 +16,7 @@ model = load_model('action.h5')
 mp_holistic = mp.solutions.holistic
 holistic = mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 
-actions = ['NO_SIGN', 'A', 'B', 'C']  # Define sign labels
+actions = ['NO_SIGN','A', 'B', 'C','D', 'E', 'F','G', 'H', 'I','J', 'K', 'L','M', 'N', 'O','P', 'Q', 'R','S', 'T', 'U','V', 'W','X', 'Y', 'Z']
 
 # Dictionary to store per-user sequences
 user_sequences = defaultdict(list)
